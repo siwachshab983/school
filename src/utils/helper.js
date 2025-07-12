@@ -6,7 +6,7 @@ import eventImgFive from "../assets/images/png/event-img-5.png"
 import eventImgSix from "../assets/images/png/event-img-6.png"
 import eventImgSeven from "../assets/images/png/event-img-7.png"
 import eventImgEight from "../assets/images/png/event-img-8.png"
-import { CommentIcon, EyeIcon } from "./icon"
+import { Circle, CommentIcon, EyeIcon } from "./icon"
 
 export const TOPNEWSEVENTS = [
     {
@@ -120,8 +120,6 @@ export const FOOTER_SOCIAL_LINKS = [
         link: "https://web.telegram.org/"
     }
 ];
-
-import { Circle } from "./icon"
 
 export const Who_We_Are_Data = [
     {

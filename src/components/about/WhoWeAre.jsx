@@ -4,7 +4,7 @@ import Heading from '../common/Heading'
 
 const WhoWeAre = () => {
   return (
-    <div className='max-w-[1074px] mx-auto px-3'>
+    <div className='max-w-[1074px] mx-auto px-3 mt-[50px]'>
 
       <Heading className={'uppercase !text-[20px] !font-normal mt-[50px] !text-black  !leading-[40px] '}><span className='text-[40px] font-semibold text-[#FF9534]'>WHo we are </span> One of the most important, yet underrated, pages on an entire website is the About Us page, particularly for small- and medium-sized business owners (SMBs). The About Us page is one of your best chances to create a meaningful connection with a site visitor that builds confidence in the potential customer and lays the foundation of a solid business relationship.
      </Heading>

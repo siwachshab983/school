@@ -112,9 +112,9 @@ export const Phone = () => (
     </svg>
 );
 
-export const Circle = ({className}) => (
+export const Circle = ({ className }) => (
     <svg
-    className={className}
+        className={className}
         width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
         <ellipse cx="25.083" cy="24.5756" rx="24.5756" ry="24.9981" transform="rotate(-90 25.083 24.5756)" fill="white" />
         <g mask="url(#mask0_417_370)">

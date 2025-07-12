@@ -6,7 +6,7 @@ import { Who_We_Are_Data } from '../../utils/helper'
 
 const OurMission = () => {
   return (
-    <div className='max-w-[1074px] mx-auto px-3'>
+    <div className='max-w-[1074px] mx-auto px-3 mb-[50px]'>
       <div className='gap-[50px] flex flex-col -mx-3'>
         {Who_We_Are_Data.map((item, index) => (
           <div key={index} className=''>

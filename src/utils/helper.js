@@ -89,8 +89,10 @@ export const TOPNEWSEVENTS = [
         eyeNumber: "29",
         date: "September 4, 2025 "
     },
-]
-export const NAVLINKS = ["Home", "About us", "Management", "News & Event", "Gallery", "Contact us"]
+];
+
+export const NAVLINKS = ["Home", "About us", "Management", "News & Event", "Gallery", "Contact us"];
+
 export const FOOTER_SOCIAL_LINKS = [
     {
         name: "Facebook",
@@ -115,6 +117,6 @@ export const FOOTER_SOCIAL_LINKS = [
     {
         name: "Telegram",
         icon: "<Telegram />",
-        link: "https://www.telegram.com/"
+        link: "https://web.telegram.org/"
     }
-]
+];

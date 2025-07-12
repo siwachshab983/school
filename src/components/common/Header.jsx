@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import { NAVLINKS } from '../../utils/helper';
 
 const Header = () => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
@@ -12,9 +13,9 @@ const Header = () => {
             <div className='flex justify-between relative overflow-x-clip items-center bg-white max-w-[1052px] mx-auto py-[35px]'>
                 {/* <img src="" alt="" /> */}
                 <a className='font-semibold text-2xl' href="#">Rapkhen</a>
-                <ul className={`flex justify-center items-center gap-10 z-50 max-lg:absolute top-0  duration-300 max-lg:bg-white max-lg:w-full max-lg:min-h-screen max-lg:flex-col ${isOpen ? '-right-full' : 'right-0'}`}>
+                <ul className={`flex justify-center items-center gap-10 z-50 max-lg:fixed top-0  duration-300 max-lg:bg-white max-lg:w-full max-lg:min-h-screen max-lg:flex-col ${isOpen ? '-right-full' : 'right-0'}`}>
                     {
-                        ["Home", "About us", "Management", "News & Event", "Gallery", "Contact us"].map((link, index) => (
+                        NAVLINKS.map((link, index) => (
                             <li key={index}>
                                 <NavLink to={index === 0 ? '/' : `/${link.replace(/\s+/g, '-').toLowerCase()}`} className={({ isActive }) => `text-[20px] max-w-max ${isActive ? 'font-semibold text-[#FF9534]' : ''}`} > {link}</NavLink>
 

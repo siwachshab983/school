@@ -1,9 +1,13 @@
 import React from 'react'
+import JoinUs from './JoinUs'
 
 const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
+    return (
+        <>
+            <JoinUs />
+            <div>Footer</div>
+        </>
+    )
 }
 
 export default Footer

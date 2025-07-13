@@ -16,6 +16,10 @@ const HomeTopSlider = () => {
         spaceBetween={30}
         modules={[Autoplay, Pagination]}
         loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         pagination={{ clickable: true }}
         className="mySwiper max-w-[1072px] w-full mx-auto !pb-10"
       >

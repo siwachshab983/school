@@ -1,3 +1,5 @@
+import React from 'react';
+
 export const AdminIcon = () => (
     <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M11.5 12.5C14.9521 12.5 17.75 9.70215 17.75 6.25C17.75 2.79785 14.9521 0 11.5 0C8.04785 0 5.25 2.79785 5.25 6.25C5.25 9.70215 8.04785 12.5 11.5 12.5ZM16.1777 14.0918L13.8438 23.4375L12.2812 16.7969L13.8438 14.0625H9.15625L10.7188 16.7969L9.15625 23.4375L6.82227 14.0918C3.34082 14.2578 0.5625 17.1045 0.5625 20.625V22.6562C0.5625 23.9502 1.6123 25 2.90625 25H20.0938C21.3877 25 22.4375 23.9502 22.4375 22.6562V20.625C22.4375 17.1045 19.6592 14.2578 16.1777 14.0918Z" fill="black" />
@@ -134,3 +136,34 @@ export const Circle = ({ className }) => (
     </svg>
 
 )
+export const GallerySvg = () => (
+    <svg
+        width="50"
+        height="50"
+        viewBox="0 0 50 50"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <path
+            d="M22.5 39C31.6127 39 39 31.6127 39 22.5C39 13.3873 31.6127 6 22.5 6C13.3873 6 6 13.3873 6 22.5C6 31.6127 13.3873 39 22.5 39Z"
+            stroke="white"
+            strokeWidth="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
+        <path
+            d="M46 45L36 35"
+            stroke="white"
+            strokeWidth="4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
+        <path
+            d="M16 22.1905H22.5M29 22.1905H22.5M22.5 22.1905V29V16"
+            stroke="white"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+        />
+    </svg>
+);

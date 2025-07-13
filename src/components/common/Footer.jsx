@@ -5,7 +5,6 @@ const Footer = () => {
     return (
         <>
             <JoinUs />
-            <div>Footer</div>
         </>
     )
 }

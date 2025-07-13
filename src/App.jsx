@@ -5,6 +5,7 @@ import ContactUs from './pages/ContactUs'
 import Gallery from './pages/Gallery'
 import Management from './pages/Management'
 import News from './pages/News'
+import React from 'react'
 import AboutUs from './pages/AboutUs'
 
 function App() {

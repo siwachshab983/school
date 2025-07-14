@@ -9,8 +9,8 @@ const Header = () => {
         setIsOpen(!isOpen);
     }
     return (
-        <div className="px-5">
-            <div className='flex justify-between relative overflow-x-clip items-center bg-white max-w-[1052px] mx-auto py-[35px]'>
+        <div className="px-12.5">
+            <div className='flex justify-between relative overflow-x-clip items-center bg-white max-w-[1102px] mx-auto py-[35px]'>
                 {/* <img src="" alt="" /> */}
                 <a className='font-semibold text-2xl' href="#">Rapkhen</a>
                 <ul className={`flex justify-center items-center gap-10 z-50 max-lg:fixed top-0  duration-300 max-lg:bg-white max-lg:w-full max-lg:min-h-screen max-lg:flex-col ${isOpen ? '-right-full' : 'right-0'}`}>

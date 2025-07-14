@@ -21,7 +21,7 @@ const HomeTopSlider = () => {
           disableOnInteraction: false,
         }}
         pagination={{ clickable: true }}
-        className="mySwiper max-w-[1072px] w-full mx-auto !pb-10"
+        className="mySwiper max-w-[1152px] w-full mx-auto !pb-10"
       >
         <SwiperSlide className='bg-[url(./assets/images/png/home-top-slider-img-1.jpg)] bg-center bg-no-repeat bg-cover min-h-[498px] w-full after:absolute after:top-0 after:right-0 after:bg-black after:opacity-50 relative after:w-full after:h-full after:content-[""] !flex justify-center items-center flex-col'>
           <div className="max-w-[850px] w-full">

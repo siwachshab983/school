@@ -9,7 +9,7 @@ const JoinUs = () => {
         An <span className='text-[#FF9534]'>investment</span> in <span className='text-[#FF9534]'>knowledge</span> pays the best <span className='text-[#FF9534]'>interest</span>.
       </h2>
       <div className=" max-w-[900px] w-full relative z-20 overflow-hidden rounded-[40px]">
-        <input type="text" className='text-[20px] text-white bg-[#00000066] rounded-[40px] border-[2px] border-white p-5 w-full ' placeholder='Enter e-mail to recieve news letter' />
+        <input type="text" className='text-[20px] text-white outline-[#FF9534] bg-[#00000066] rounded-[40px] border-[2px] border-white p-5 w-full ' placeholder='Enter e-mail to recieve news letter' />
         <button className='absolute flex justify-center items-center right-0 top-0 bottom-0 bg-[#FF9534] px-[15px] py-5 transition-all duration-300'><JoinUsSendButton/></button>
       </div>
     </div>

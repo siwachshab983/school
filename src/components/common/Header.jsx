@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <div className="px-4">
             <div className='flex justify-between relative overflow-x-clip items-center bg-white max-w-[1102px] mx-auto py-[35px]'>
-                <a className='font-semibold text-2xl' href="#">Rapkhen</a>
+                <NavLink className='font-semibold text-2xl' to="/">Rapkhen</NavLink>
                 <ul className={`flex justify-center items-center gap-10 z-50 max-lg:fixed top-0  duration-300 max-lg:bg-white max-lg:w-full max-lg:min-h-screen max-lg:flex-col ${isOpen ? '-right-full' : 'right-0'}`}>
                     {
                         NAVLINKS.map((link, index) => (

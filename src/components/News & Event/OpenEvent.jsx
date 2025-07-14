@@ -8,7 +8,7 @@ import Button from '../common/Button'
 const OpenEvent = () => {
   return (
     <>
-      <div className="px-5 lg:px-12.5 mt-12.5">
+      <div className="px-4 lg:px-12.5 mt-6.5 md:mt-12.5">
         <div className="max-w-[1052px] mx-auto">
           <div className="relative">
             <img src={childrenImg} alt="children-img" />

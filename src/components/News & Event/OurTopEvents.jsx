@@ -69,7 +69,7 @@ const OurTopEvents = () => {
   const isLastPage = activePage === totalPages;
 
   return (
-    <div className="px-4 md:px-7.5 bg-[#F2F2F2] mt-7.5 py-12.5">
+    <div className="px-4 md:px-7.5 bg-[#F2F2F2] mt-6.5 md:mt-7.5 py-12.5">
       <div className="max-w-[1092px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-[30px]">
           {activePage === 1 && (

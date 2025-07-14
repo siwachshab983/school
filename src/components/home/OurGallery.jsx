@@ -3,6 +3,7 @@ import galleryIcon from "../../assets/svg/gallery-icon.svg";
 import { BtnArrow, GallerySvg } from '../../utils/icon';
 import { GALLERY_IMAGES } from '../../utils/helper';
 import Button from '../common/Button';
+import { NavLink } from 'react-router-dom';
 
 const OurGallery = () => {
   const imagesToDisplay = GALLERY_IMAGES.slice(0, 2); // sirf 2 images
@@ -32,7 +33,7 @@ const OurGallery = () => {
           </div>
         ))}
       </div>
-      <Button className={'ml-auto mt-10 flex justify-center items-center gap-5'} >More Articles <BtnArrow/></Button>
+      <NavLink to={'/gallery'}><Button className={'ml-auto mt-10 flex justify-center items-center gap-5'} >More Articles <BtnArrow/></Button></NavLink>
     </div>
   );
 };

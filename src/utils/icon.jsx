@@ -51,7 +51,7 @@ export const NextIcon = () => (
 
 export const SmallArrow = () => (
     <svg width="8" height="7" viewBox="0 0 8 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M7 3.76266L4.375 1M7 3.76266L4.375 6M7 3.76266L1 3.76422" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+        <path d="M7 3.76266L4.375 1M7 3.76266L4.375 6M7 3.76266L1 3.76422" stroke="white" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
 );
 

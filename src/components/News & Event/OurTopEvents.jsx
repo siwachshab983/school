@@ -75,7 +75,7 @@ const OurTopEvents = () => {
           {activePage === 1 && (
             <div className="flex items-center justify-center">
               <div className="relative">
-                <Heading className="z-1 relative">TOP NEWS & EVENT</Heading>
+                <Heading className=" max-sm:!text-[26px] z-1 relative">TOP NEWS & EVENT</Heading>
                 <img
                   className="absolute -left-7 -top-4"
                   src={ellipseImg}
@@ -96,39 +96,39 @@ const OurTopEvents = () => {
                   alt="img"
                 />
                 <div className="px-4 sm:px-7.5 pb-2.5">
-                  <p className="text-xl leading-[32px] text-black pb-2.5">
+                  <p className="text-lg sm:text-xl leading-6 sm:leading-8 text-black pb-2.5">
                     Lorem ipsum dolor sit met, consectetur cing elit, sed do abbey...
                   </p>
                   <div className="flex justify-between items-center mb-5">
-                    <p className="font-medium text-xl leading-[32px] text-black">
+                    <p className="font-medium text-lg sm:text-xl leading-6 sm:leading-8 text-black">
                       Headmaster
                     </p>
                     <div className="flex items-center gap-2.5">
                       <CommentIcon />
-                      <p className="font-medium text-xl leading-[100%] text-black">
+                      <p className="font-medium text-lg sm:text-xl leading-[100%] text-black">
                         10
                       </p>
                     </div>
                     <div className="flex items-center gap-2.5">
                       <EyeIcon />
-                      <p className="font-medium text-xl leading-[100%] text-black">
+                      <p className="font-medium text-lg sm:text-xl leading-[100%] text-black">
                         29
                       </p>
                     </div>
                   </div>
-                  <p className="text-xl leading-[32px] text-black">September 4, 2025</p>
+                  <p className="text-lg sm:text-xl leading-6 sm:leading-8 text-black">September 4, 2025</p>
                 </div>
               </div>
             </div>
           ))}
         </div>
-        <div className="flex max-md:flex-col max-md:gap-4 justify-between items-center mt-12.5">
-          <div className="flex gap-3.5 items-center">
+        <div className="flex max-md:flex-col max-md:gap-4 justify-between items-center mt-6.5 sm:mt-12.5">
+          <div className="flex gap-3 sm:gap-3.5 items-center">
             {getPaginationPages(activePage, totalPages).map((page, idx) =>
               page === '...' ? (
                 <span
                   key={idx}
-                  className="!py-2.5 !px-5 sm:!py-[19px] sm:!px-[29px] !leading-[21px] !text-xl text-[#FF9534] cursor-default select-none"
+                  className="!py-2 !px-4.5 sm:!py-[19px] sm:!px-[29px] !leading-[21px] !text-xl text-[#FF9534] cursor-default select-none"
                 >
                   ...
                 </span>
@@ -136,7 +136,7 @@ const OurTopEvents = () => {
                 <Button
                   key={idx}
                   onClick={() => handlePageClick(page)}
-                  className={`!py-2.5 !px-5 sm:!py-[19px] sm:!px-[29px] !leading-[21px] !text-xl ${activePage === page
+                  className={`!py-2 !px-4.5 sm:!py-[19px] sm:!px-[29px] !leading-[21px] !text-xl ${activePage === page
                     ? 'bg-[#FF9534] text-white hover:text-white hover:!bg-[#FF9534]'
                     : '!bg-transparent border !border-[#FF9534] !text-[#FF9534]'
                     }`}
@@ -150,7 +150,7 @@ const OurTopEvents = () => {
             <Button
               onClick={() => handlePageClick(Math.max(1, activePage - 1))}
               disabled={activePage === 1}
-              className={`!py-2.5 !px-5 sm:!py-[19px] sm:!px-[29px] flex items-center !leading-[21px] !text-xl gap-2.5 ${activePage === 1
+              className={`!py-2 !px-4.5 sm:!py-[19px] sm:!px-[29px] flex items-center !leading-[21px] !text-xl gap-2.5 ${activePage === 1
                 ? 'bg-[#FF9534] text-white cursor-not-allowed hover:!bg-transparent'
                 : 'text-[#FF9534] border !border-[#FF9534] hover:!bg-transparent'
                 }`}
@@ -160,7 +160,7 @@ const OurTopEvents = () => {
             <Button
               onClick={() => handlePageClick(Math.min(totalPages, activePage + 1))}
               disabled={isLastPage}
-              className={`!py-2.5 !px-5 sm:!py-[19px] sm:!px-[29px] flex items-center !leading-[21px] !text-xl gap-2.5 ${isLastPage
+              className={`!py-2 !px-4.5 sm:!py-[19px] sm:!px-[29px] flex items-center !leading-[21px] !text-xl gap-2.5 ${isLastPage
                 ? 'bg-[#FF9534] text-white cursor-not-allowed hover:!bg-transparent'
                 : 'text-[#FF9534] border !border-[#FF9534] hover:!bg-transparent'
                 }`}

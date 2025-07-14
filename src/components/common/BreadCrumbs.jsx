@@ -13,13 +13,13 @@ const BreadCrumbs = () => {
     ) || '';
 
     return (
-        <div className="px-5 bg-[#FF9534]">
-            <div className="max-w-[1052px] w-full py-[25px] flex justify-between items-center mx-auto">
-                <Heading className="text-white">{currentPage}</Heading>
-                <div className="flex gap-2 items-center text-white text-[15px]">
-                    <NavLink to="/">Home</NavLink>
+        <div className="px-4 sm:px-5 bg-[#FF9534]">
+            <div className="max-w-[1052px] w-full py-4 sm:py-[25px] flex justify-between items-center mx-auto">
+                <Heading className="text-white max-sm:text-xl">{currentPage}</Heading>
+                <div className="flex gap-1 sm:gap-2 items-center text-white text-[15px]">
+                    <NavLink className="max-sm:text-sm" to="/">Home</NavLink>
                     <SmallArrow />
-                    <p className="capitalize">{currentPage}</p>
+                    <p className="capitalize max-sm:text-sm">{currentPage}</p>
                 </div>
             </div>
         </div>
